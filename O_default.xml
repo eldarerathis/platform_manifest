@@ -6,7 +6,7 @@
            fetch="https://github.com/" />
 
   <!-- Build -->
-  <project path="build/make" name="camcory/platform_build" remote="github" revision="Ox" >
+  <project path="build/make" name="eldarerathis/android_platform_build" remote="github" revision="eldarerathis-8.1.x" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -15,20 +15,17 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="camcory/platform_build_soong" remote="github" revision="Ox" >
+  <project path="build/soong" name="eldarerathis/platform_build_soong" remote="github" revision="eldarerathis-8.1.x" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
   <!-- Device -->
-  <project path="device/moto/shamu" name="camcory/device_moto_shamu" remote="github" revision="Ox" />
-
-  <!-- External -->
-  <project path="external/DUtils" name="camcory/android_external_DUtils" remote="github" revision="Ox" />
+  <project path="device/moto/shamu" name="eldarerathis/android_device_moto_shamu" remote="github" revision="eldarerathis-8.1.x" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="camcory/platform_frameworks_av" remote="github" revision="Ox" />
-  <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="Ox" />
+  <project path="frameworks/base" name="eldarerathis/android_frameworks_base" remote="github" revision="eldarerathis-8.1.x" />
   <project path="frameworks/native" name="camcory/platform_frameworks_native" remote="github" revision="Ox" />
 
   <!-- Hardware -->
@@ -40,13 +37,12 @@
   <project path="kernel/moto/shamu" name="camcory/android_kernel_moto_shamu" remote="github" revision="O" />
 
   <!-- Packages -->
-  <project path="packages/apps/DUI" name="camcory/android_packages_apps_DUI" remote="github" revision="Ox" />
   <project path="packages/apps/Launcher3" name="camcory/platform_packages_apps_Launcher3" remote="github" revision="Ox" />
-  <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="Ox" />
+  <!--<project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="Ox" />-->
   <project path="packages/inputmethods/LatinIME" name="camcory/android_packages_inputmethods_LatinIME" remote="github" revision="Ox" />
 
   <!-- Vendor -->
-  <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="Ox" />
-  <project path="vendor/moto" name="camcory/proprietary_vendor_motorola" remote="github" revision="O" />
+  <project path="vendor/androidx" name="eldarerathis/vendor_androidx" remote="github" revision="eldarerathis-8.1.x" />
+  <project path="vendor/moto" name="eldarerathis/proprietary_vendor_motorola" remote="github" revision="eldarerathis-8.1.x" />
 
 </manifest>
