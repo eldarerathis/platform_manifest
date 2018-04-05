@@ -629,7 +629,4 @@
 
   <!-- Add all tracked repos -->
   <include name="O_default.xml" />
-
-  <!-- Google Apps -->
-  <include name="gapps.xml" />
 </manifest>
