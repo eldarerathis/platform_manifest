@@ -72,6 +72,7 @@
   <remove-project name="platform/hardware/intel/sensors" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/qcom/msm8x84" />
+  <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/ril" />
 
   <!-- Kernel repos -->

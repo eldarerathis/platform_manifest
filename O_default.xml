@@ -30,6 +30,7 @@
   <!-- Hardware -->
   <project path="hardware/interfaces" name="eldarerathis/platform_hardware_interfaces" remote="github" revision="eldarerathis-8.1.x" />
   <project path="hardware/qcom/msm8x84" name="eldarerathis/platform_hardware_qcom_msm8x84" remote="github" revision="eldarerathis-8.1.x" />
+  <project path="hardware/qcom/gps" name="eldarerathis/android_hardware_qcom_gps" remote="github" revision="eldarerathis-8.1.x" />
   <project path="hardware/ril" name="eldarerathis/platform_hardware_ril" remote="github" revision="eldarerathis-8.1.x" />
 
   <!-- Kernel -->
